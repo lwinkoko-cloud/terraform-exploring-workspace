@@ -13,7 +13,7 @@ variable "bca_aws_vpc_cidr" {
 variable "provider_env_assumed_role" {
   type = map(any)
   default = {
-    "bca-aws-master" = "arn:aws:iam::957103206354:role/bca-aws-master"
+    "bca-aws-master" = "arn:xxxx"
     "bca-aws-dev"    = "arn:xxxx"
     "bca-aws-prod"   = "arn:xxxx"
   }
